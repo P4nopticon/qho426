@@ -1,3 +1,5 @@
+import numbers
+
 print("What type of book is this")
 book = input()
 if book == "adventure":
@@ -25,3 +27,10 @@ elif direction == "right":
     print("I am moving right!")
 else:
     print("Unknown direction!")
+
+print("Please enter a whole number")
+number = int(input())
+if number % 2 == 0:
+    print(f"The number {number} is even!.")
+else:
+    print(f"The number {number} is odd!.")
